@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript Practice</title>
+    <title>JavaScript RPS Project</title>
   </head>
   <h1>Rock Paper Scissors!</h1>
-  <button class="randomizer" onclick="gameTime();">Computer Move</button>
-  <p class="paragraphContent"></p>
+
+  <button onclick="playGame('Rock') ">Rock</button>
+
+  <button onclick="playGame('Paper')">Paper</button>
+  <button onclick="playGame('Scissors')">Scissors</button>
+  <p class="js-move"></p>
+  <p class="js-result"></p>
   <body>
     <script src="script/RPS.js"></script>
   </body>
